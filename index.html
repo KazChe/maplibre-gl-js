@@ -18,14 +18,14 @@
         const map = await AmazonLocation.createMap(
           {
             // Cognito Identity Pool ID
-            identityPoolId: "<Identity Pool ID>",
+            identityPoolId: "us-east-1:48225318-2df3-45a3-a310-d67881a2cbd4",
           },
           {
             container: "map",
             center: [-123.1187, 49.2819], // initial map center point
             zoom: 10, // initial map zoom
             // Amazon Location Service Map Name
-            style: "<Map name>",
+            style: "OpenDataMapp",
             hash: true,
           }
         );
